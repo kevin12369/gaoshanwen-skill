@@ -1,12 +1,14 @@
 # 高善文风格宏观研究与财经分析 SKILL
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/kevin12369/gaoshanwen-skill/releases/tag/v1.0.0)
+[![GitHub stars](https://img.shields.io/github/stars/kevin12369/gaoshanwen-skill?style=social)](https://github.com/kevin12369/gaoshanwen-skill/stargazers)
+[![agentskills.io](https://img.shields.io/badge/agentskills.io-Compliant-green.svg)](https://agentskills.io)
+[![CI](https://github.com/kevin12369/gaoshanwen-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/kevin12369/gaoshanwen-skill/actions/workflows/validate.yml)
+[![Cross-Platform](https://img.shields.io/badge/Agent%20Compat-OpenClaw%20%7C%20Claude%20Code%20%7C%20Cursor%20%7C%20Mavis-blueviolet)]()
+
 > **致敬高善文先生（1971-2026）**
 > 一位卓越的宏观经济学家、严谨的研究方法论建设者、风趣而深刻的思想传播者。
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)]()
-[![agentskills.io](https://img.shields.io/badge/agentskills.io-Compliant-green.svg)]()
-[![SKILL.md](https://img.shields.io/badge/SKILL.md-Ready-orange.svg)]()
 
 > **解释过去头头是道，似乎有理；预测未来躲躲闪闪，误差惊人。**
 > —— 横批：经济分析

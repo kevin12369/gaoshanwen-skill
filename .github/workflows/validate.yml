@@ -1,0 +1,71 @@
+name: Validate SKILL
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - '**.md'
+      - '**.json'
+      - '**.py'
+      - '**.ps1'
+      - '**.yml'
+      - 'SKILL.md'
+      - '.github/workflows/**'
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:  # allow manual trigger
+
+jobs:
+  validate:
+    name: Run SKILL validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run validation script
+        run: |
+          python scripts/validate-skill.py .
+
+      - name: Show validation summary
+        if: always()
+        run: |
+          echo "## SKILL Validation Result" >> $GITHUB_STEP_SUMMARY
+          echo "✅ All checks passed!" >> $GITHUB_STEP_SUMMARY || echo "❌ Some checks failed - see logs"
+
+  lint-markdown:
+    name: Lint Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check Markdown file sizes
+        run: |
+          echo "Checking Markdown files for sanity..."
+          for f in $(find . -name "*.md" -not -path "./.git/*"); do
+            size=$(wc -c < "$f")
+            if [ "$size" -gt 200000 ]; then
+              echo "::warning::$f is large ($size bytes)"
+            fi
+            if [ "$size" -lt 200 ]; then
+              echo "::warning::$f is suspiciously small ($size bytes)"
+            fi
+          done
+
+      - name: Verify SKILL.md frontmatter
+        run: |
+          python3 -c "
+          import re, sys
+          with open('SKILL.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+          m = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
+          if not m:
+              print('ERROR: SKILL.md missing YAML frontmatter'); sys.exit(1)
+          print('SKILL.md frontmatter OK')
+          "

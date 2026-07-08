@@ -65,3 +65,8 @@ dist/
 
 # mavis-trash recovery
 .mavis-trash/
+
+# PowerShell scripts (one-time upload/release scripts should not be in the repo)
+# If you need to commit a .ps1 utility, add a `!` exception below
+*.ps1
+!scripts/validate-skill.ps1
