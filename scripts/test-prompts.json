@@ -1,0 +1,181 @@
+{
+  "name": "gaoshanwen-skill",
+  "version": "1.0.0",
+  "description": "Test prompts for validating the gaoshanwen-skill behavior across multiple scenarios",
+  "prompts": [
+    {
+      "id": "test-01-property-analysis",
+      "category": "real-estate",
+      "framework": "three-stage-adjustment",
+      "prompt": "用高善文框架分析 2024 年中国房地产调整的根本原因",
+      "expected_elements": [
+        "三阶段调整（高周转→制造、集团→项目、预售→现房）",
+        "资金端矛盾分析",
+        "病症 vs 病灶 思维",
+        "高速公路开车或类似比喻",
+        "数据支撑（销售面积、占GDP比例等）",
+        "经济分析对联收尾",
+        "AI 模拟声明",
+        "免责声明"
+      ],
+      "forbidden_elements": [
+        "具体股票推荐",
+        "具体点位预测",
+        "高善文认为...",
+        "未公开讲话引用"
+      ]
+    },
+    {
+      "id": "test-02-asset-revaluation",
+      "category": "asset-revaluation",
+      "framework": "asset-revaluation",
+      "prompt": "用高善文资产重估理论分析当前大类资产配置",
+      "expected_elements": [
+        "三条件分析（货币、产能、贸易顺差）",
+        "资产 vs 资本概念区分",
+        "足球赛三阶段比喻",
+        "微观主体资产配置",
+        "边界条件讨论",
+        "经济分析对联收尾"
+      ],
+      "forbidden_elements": [
+        "我预测...",
+        "我建议...",
+        "高善文认为...",
+        "具体股票推荐"
+      ]
+    },
+    {
+      "id": "test-03-capacity-cycle",
+      "category": "macro",
+      "framework": "capacity-cycle",
+      "prompt": "用高善文产能周期框架分析当前中国制造业",
+      "expected_elements": [
+        "可贸易 vs 不可贸易部门",
+        "三阶段产能周期",
+        "三步观察法",
+        "国际收支分析",
+        "病症 vs 病灶 思维"
+      ]
+    },
+    {
+      "id": "test-04-inventory-cycle",
+      "category": "macro",
+      "framework": "inventory-cycle",
+      "prompt": "用库存周期框架分析当前中国经济",
+      "expected_elements": [
+        "3-4 年周期节律",
+        "需求-产出缺口-价格领先指标",
+        "行业分化（上游/中游/下游）",
+        "实际库存伪概念纠正"
+      ]
+    },
+    {
+      "id": "test-05-inflation",
+      "category": "macro",
+      "framework": "hog-cycle",
+      "prompt": "用猪周期框架分析当前中国 CPI 走势",
+      "expected_elements": [
+        "中国通胀特征（食品权重高）",
+        "猪周期节律",
+        "刘易斯拐点",
+        "可贸易 vs 不可贸易部门",
+        "多维度通胀分析"
+      ]
+    },
+    {
+      "id": "test-06-overcapacity",
+      "category": "industry",
+      "framework": "overcapacity",
+      "prompt": "用高善文产能过剩框架分析中国新能源车产能过剩争议",
+      "expected_elements": [
+        "产能过剩是新兴行业绕不开的阶段",
+        "政府并不乐见产能过剩",
+        "中国冲击 2.0",
+        "贸易外溢效应",
+        "应对策略（转内需+维护自由贸易）"
+      ]
+    },
+    {
+      "id": "test-07-a-share",
+      "category": "equity",
+      "framework": "asset-revaluation + inventory",
+      "prompt": "用高善文风格分析当前 A 股市场策略",
+      "expected_elements": [
+        "资产重估 + 库存周期 双框架",
+        "三条件分析",
+        "估值水位评估",
+        "边走边看判断",
+        "对预测未来心怀恐惧",
+        "经济分析对联"
+      ]
+    },
+    {
+      "id": "test-08-style-couplet",
+      "category": "style",
+      "framework": "self-deprecation",
+      "prompt": "用经济分析对联风格写一段宏观分析的结尾",
+      "expected_elements": [
+        "招牌对联（解释过去/预测未来/经济分析）",
+        "自嘲基调",
+        "诚实风格"
+      ]
+    },
+    {
+      "id": "test-09-style-imitate",
+      "category": "style",
+      "framework": "speech",
+      "prompt": "模拟高善文 2024 中期策略会《奋楫逐浪天地宽》风格，写一段关于 [主题] 的开场白",
+      "expected_elements": [
+        "团队语气（我们）",
+        "敢下判断",
+        "数据 + 逻辑",
+        "至少 1 个比喻",
+        "承认不确定性",
+        "经济分析对联"
+      ]
+    },
+    {
+      "id": "test-10-policy-analysis",
+      "category": "policy",
+      "framework": "total-demand",
+      "prompt": "用高善文风格分析当前中国宏观政策方向",
+      "expected_elements": [
+        "总需求两派意见分析",
+        "高速公路开车比喻",
+        "病症 vs 病灶 思维",
+        "政策建议（短期+长期）",
+        "对症下药 vs 对病下药"
+      ]
+    }
+  ],
+  "evaluation_criteria": {
+    "core": {
+      "dare_to_judge": "敢下判断 - 1-3句明确核心判断",
+      "data_rich": "数据翔实 - 具体数字、月份、行业",
+      "logical_rigorous": "逻辑严密 - 立论→举证→边界→不确定性",
+      "metaphor": "至少1个生动比喻",
+      "borderline_discussion": "讨论边界条件",
+      "uncertainty": "承认不确定性"
+    },
+    "style": {
+      "team_tone": "使用'我们'",
+      "analyst_role": "诸葛亮式客观分析",
+      "no_investment_advice": "不下投资建议",
+      "no_specific_points": "不预测具体点位",
+      "no_specific_stocks": "不推荐具体股票"
+    },
+    "compliance": {
+      "ai_simulation_mark": "AI模拟声明",
+      "disclaimer": "免责声明",
+      "economic_analysis_couplet": "经济分析对联",
+      "no_splicing": "不拼接个人观点"
+    }
+  },
+  "scoring": {
+    "perfect_score": 50,
+    "excellent_threshold": 45,
+    "good_threshold": 35,
+    "pass_threshold": 25
+  }
+}
