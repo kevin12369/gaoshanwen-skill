@@ -1,0 +1,83 @@
+﻿[96m============================================================[0m
+[96m  gaoshanwen-skill 璺ㄥ钩鍙拌鑼冩牎楠?[0m
+[96m============================================================[0m
+[96m[INFO] SKILL 鏍圭洰褰? .[0m
+
+
+[93m鈹€鈹€ 鐩綍缁撴瀯 鈹€鈹€[0m
+[92m[OK] SKILL.md 瀛樺湪[0m
+[92m[OK] README.md 瀛樺湪[0m
+[92m[OK] CHANGELOG.md 瀛樺湪[0m
+[92m[OK] LICENSE 瀛樺湪[0m
+[92m[OK] references/ 鐩綍瀛樺湪[0m
+[92m[OK] examples/ 鐩綍瀛樺湪[0m
+[92m[OK] scripts/ 鐩綍瀛樺湪[0m
+
+[93m鈹€鈹€ references/ 璧勬枡搴?鈹€鈹€[0m
+[92m[OK] references/01-core-theories.md 瀛樺湪[0m
+[92m[OK] references/02-analysis-frameworks.md 瀛樺湪[0m
+[92m[OK] references/03-style-and-voice.md 瀛樺湪[0m
+[92m[OK] references/04-key-views-timeline.md 瀛樺湪[0m
+[92m[OK] references/05-publications.md 瀛樺湪[0m
+[92m[OK] references/06-glossary.md 瀛樺湪[0m
+[92m[OK] references/07-checklist.md 瀛樺湪[0m
+
+[93m鈹€鈹€ examples/ 绀轰緥 鈹€鈹€[0m
+[92m[OK] examples/01-property-3-challenges.md 瀛樺湪[0m
+[92m[OK] examples/02-asset-revaluation-theory.md 瀛樺湪[0m
+[92m[OK] examples/03-total-demand-debate.md 瀛樺湪[0m
+[92m[OK] examples/04-overcapacity-and-spillover.md 瀛樺湪[0m
+[92m[OK] examples/05-a-share-strategy.md 瀛樺湪[0m
+[92m[OK] examples/06-self-deprecating-couplet.md 瀛樺湪[0m
+[92m[OK] examples/07-style-calibration.md 瀛樺湪[0m
+
+[93m鈹€鈹€ SKILL.md Frontmatter 鈹€鈹€[0m
+[91m[FAIL] YAML frontmatter 璧峰 (---)[0m
+[92m[OK] YAML frontmatter 缁撴潫 (---)[0m
+[92m[OK] name 瀛楁瀛樺湪 (gaoshanwen)[0m
+[92m[OK] version 瀛楁瀛樺湪 (semver)[0m
+[92m[OK] description 瀛楁瀛樺湪[0m
+[91m[FAIL] author 瀛楁瀛樺湪[0m
+[92m[OK] license 瀛楁瀛樺湪[0m
+[92m[OK] tags 瀛楁瀛樺湪[0m
+[92m[OK] triggers 瀛楁瀛樺湪[0m
+[92m[OK] agent-compatibility 瀛楁瀛樺湪[0m
+[91m[FAIL] 鍖呭惈楂樺杽鏂囦粙缁?[0m
+[91m[FAIL] 鍖呭惈 AI 妯℃嫙澹版槑[0m
+[91m[FAIL] 鍖呭惈鍏嶈矗澹版槑[0m
+[91m[FAIL] 鍖呭惈缁忔祹鍒嗘瀽瀵硅仈[0m
+[91m[FAIL] 鍖呭惈 5 澶у垎鏋愭鏋?[0m
+[91m[FAIL] 鍖呭惈鍚堣杈圭晫璇存槑[0m
+
+[93m鈹€鈹€ README.md 鈹€鈹€[0m
+[92m[OK] 鍖呭惈椤圭洰绠€浠?[0m
+[92m[OK] 鍖呭惈瀹夎鏂规硶[0m
+[92m[OK] 鍖呭惈璺ㄥ钩鍙板吋瀹规€?(OpenClaw + Claude Code)[0m
+[92m[OK] 鍖呭惈鍚堣澹版槑[0m
+[92m[OK] 鍖呭惈鑷磋阿[0m
+
+[93m鈹€鈹€ 鏂囦欢澶у皬 鈹€鈹€[0m
+[92m[OK] SKILL.md 澶у皬鍚堢悊 (5KB-50KB) - 瀹為檯 27KB[0m
+[92m[OK] README.md 澶у皬鍚堢悊 (1KB-100KB) - 瀹為檯 22KB[0m
+
+[93m鈹€鈹€ 鍐呭璐ㄩ噺娣卞害妫€鏌?鈹€鈹€[0m
+[91m[FAIL] 鍖呭惈鎷涚墝鐗瑰緛: 鐥呯棁 vs 鐥呯伓[0m
+[91m[FAIL] 鍖呭惈鎷涚墝鐗瑰緛: 楂橀€熷叕璺紑杞︽瘮鍠?[0m
+[91m[FAIL] 鍖呭惈鎷涚墝鐗瑰緛: 瓒崇悆璧涗笁闃舵[0m
+[91m[FAIL] 鍖呭惈鎷涚墝鐗瑰緛: 璇歌憶浜紡鍒嗘瀽甯?[0m
+[91m[FAIL] 鍖呭惈鎷涚墝鐗瑰緛: 鍚涘瓙璞瑰彉[0m
+[91m[FAIL] 鍖呭惈鎷涚墝鐗瑰緛: 閲庣嫄绂?[0m
+[91m[FAIL] 鍖呭惈鎷涚墝鐗瑰緛: 鍒樻槗鏂嫄鐐?[0m
+[91m[FAIL] 鍖呭惈鎷涚墝鐗瑰緛: 鐥呯棁 vs 鐥呯伓 鎬濈淮[0m
+[91m[FAIL] 鍖呭惈鎷涚墝鐗瑰緛: 缁忔祹鍒嗘瀽 瀵硅仈[0m
+
+[96m============================================================[0m
+[96m  鏍￠獙缁撴灉[0m
+[96m============================================================[0m
+
+  鎬绘鏌ラ」: [97m53[0m
+  閫氳繃:     [92m36[0m
+  澶辫触:     [91m17[0m
+
+  [91m[FAIL] 鏈?17 椤规鏌ユ湭閫氳繃锛岃淇銆?[0m
+
