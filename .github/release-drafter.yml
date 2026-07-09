@@ -1,0 +1,53 @@
+# release-drafter 配置
+# 自动根据 PR / Issue / Commit 生成 Release Notes Draft
+
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+version-resolver:
+  major:
+    labels: ['breaking', 'major']
+  minor:
+    labels: ['enhancement', 'feat', 'feature']
+  patch:
+    labels: ['bug', 'fix', 'docs', 'chore', 'style', 'refactor']
+  default: patch
+
+categories:
+  - title: '🚀 Breaking Changes'
+    labels: ['breaking', 'major']
+  - title: '✨ New Features'
+    labels: ['enhancement', 'feat', 'feature']
+  - title: '🐛 Bug Fixes'
+    labels: ['bug', 'fix']
+  - title: '📝 Documentation'
+    labels: ['docs', 'documentation']
+  - title: '🎨 Style / Calibration'
+    labels: ['style', 'style-calibration']
+  - title: '🔧 Maintenance'
+    labels: ['chore', 'refactor', 'test', 'ci']
+
+change-template: '- $TITLE (#$NUMBER) @$AUTHOR'
+no-changes-template: '- No changes'
+
+exclude-labels:
+  - 'skip-changelog'
+  - 'duplicate'
+  - 'invalid'
+  - 'wontfix'
+  - 'question'
+
+include-labels: []
+version-resolver-condition: 'starts-with-v'
+tag-prefix: 'v'
+
+# 模板变量说明
+# $RESOLVED_VERSION: 自动从 PR labels 推断的版本号
+# $MAJOR, $MINOR, $PATCH: 递增的版本号
+# $TITLE: PR 标题
+# $NUMBER: PR 编号
+# $AUTHOR: PR 作者
+
+# 使用方式
+# 1. merge PR 后自动更新 draft release notes
+# 2. 在 GitHub Releases 页面查看 draft
+# 3. 维护者审核后点击 "Publish"

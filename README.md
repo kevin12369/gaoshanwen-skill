@@ -555,6 +555,81 @@ MIT License - 自由使用、修改、分发，需保留版权声明和致谢。
 | [references/04-key-views-timeline.md](references/04-key-views-timeline.md) | 关键观点年表（2003-2026） |
 | [references/05-publications.md](references/05-publications.md) | 5 部代表作索引 |
 | [references/07-checklist.md](references/07-checklist.md) | 风格校准 checklist |
+| [references/08-style-anti-patterns.md](references/08-style-anti-patterns.md) | 风格反例库（什么不像高善文） |
+| [FAQ.md](FAQ.md) | 常见问题 |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | 行为准则 |
+
+---
+
+## 🗺️ Roadmap
+
+> **项目当前状态**: v1.3.0 — 完整治理 + 国际化  
+> **下一里程碑**: v2.0.0 — 多 Agent 协作 + 实时数据接入
+
+### ✅ 已完成（v1.0 - v1.3）
+
+- [x] **v1.0.0** — 初版：SKILL.md + 5 大框架 + 7 份 references + 7 个 examples
+- [x] **v1.1.0** — 内容扩充：+3 个 examples + Issue 模板 + CI/CD
+- [x] **v1.2.0** — 变体 + 国际化：SKILL.en.md + SKILL-condensed + SKILL-a-share + SKILL-real-estate + Hello World Demo
+- [x] **v1.3.0** — 项目治理：README.en.md + CONTRIBUTING.md + SECURITY.md + CITATION.cff + PR 模板
+
+### 🚧 进行中（v1.4 - v1.5）
+
+- [ ] **v1.4.0** — 风格校准增强
+  - [ ] 反例库 `references/08-style-anti-patterns.md`
+  - [ ] 常见问题 FAQ.md
+  - [ ] release-drafter 配置（自动生成 release notes）
+  - [ ] CODE_OF_CONDUCT.md
+  - [ ] Roadmap 章节（本节）
+
+- [ ] **v1.5.0** — 内容深度增强
+  - [ ] references/08-style-anti-patterns.md（典型反例）
+  - [ ] references/09-data-sources.md（数据源指引）
+  - [ ] examples/11-debt-cycle.md（债务周期）
+  - [ ] examples/12-hog-cycle-inflation.md（猪周期详细应用）
+
+### 🌟 计划中（v2.0+）
+
+- [ ] **v2.0.0** — 多 Agent 协作
+  - [ ] 与 `hot-topic-tracker` 联动
+  - [ ] 与 `a-stock-investment-expert` 联动
+  - [ ] Skill Router（智能路由）
+
+- [ ] **v2.1.0** — 数据接入
+  - [ ] MCP 数据接口（AKShare / Tushare）
+  - [ ] 数据快照缓存
+  - [ ] 实时数据更新
+
+- [ ] **v2.2.0** — GitHub Pages 文档站
+  - [ ] mkdocs 配置
+  - [ ] 自动构建
+  - [ ] 部署到 https://kevin12369.github.io/gaoshanwen-skill
+
+- [ ] **v2.3.0** — 风格微调引擎
+  - [ ] 严肃度 / 比喻密度 / 自嘲程度参数化
+  - [ ] 演讲 / 报告 / 短评三种输出模式
+  - [ ] 行业侧重变体（A股 / 房地产 / 大宗商品）
+
+- [ ] **v2.4.0** — 评测体系
+  - [ ] 风格校准评测集（20-30 个 prompt）
+  - [ ] CI 跑 prompts 验证
+  - [ ] 用户反馈循环
+
+### 🎯 长期愿景（v3.0+）
+
+- 跨语言（英文 / 日文 / 韩文）
+- 学术界应用与引用追踪
+- 教材化（经济学院教材）
+- 跨经济学家 SKILL 系列（高善文 / 周其仁 / 林毅夫 等）
+
+### 🤝 社区贡献欢迎
+
+如果你想参与 Roadmap 中的任何一项：
+
+1. 查看 [CONTRIBUTING.md](CONTRIBUTING.md)
+2. 选择一个你想做的方向
+3. 提交 [Issue](https://github.com/kevin12369/gaoshanwen-skill/issues) 讨论方案
+4. 提 PR
 
 ---
 
