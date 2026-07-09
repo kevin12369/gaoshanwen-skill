@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 高善文先生著作
+    url: https://github.com/kevin12369/gaoshanwen-skill/blob/main/references/05-publications.md
+    about: 阅读 5 部代表作获取原始分析框架
+  - name: agentskills.io 规范
+    url: https://agentskills.io
+    about: SKILL.md 必须遵循的格式规范
