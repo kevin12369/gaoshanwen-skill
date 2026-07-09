@@ -518,6 +518,10 @@ agent-compatibility:
 - `examples/05-a-share-strategy.md` — A 股策略分析
 - `examples/06-self-deprecating-couplet.md` — 招牌对联
 - `examples/07-style-calibration.md` — 风格校准示例对比
+- `examples/08-2024-bund-summit-speech.md` — 2024 外滩峰会完整风格
+- `examples/09-2022-chuixisha-style.md` — 2022 中期策略会《吹尽狂沙始到金》
+- `examples/10-2024-japan-overseas.md` — 2024 中期策略会日本出海经验
+- `examples/11-2026-h1-a-share-analysis.md` — 2026 H1 A 股实战分析
 
 ## 致谢
 
