@@ -1,7 +1,7 @@
 # 高善文风格宏观研究与财经分析 SKILL
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/kevin12369/gaoshanwen-skill/releases/tag/v1.0.0)
+[![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg)](https://github.com/kevin12369/gaoshanwen-skill/releases/tag/v1.1.0)
 [![GitHub stars](https://img.shields.io/github/stars/kevin12369/gaoshanwen-skill?style=social)](https://github.com/kevin12369/gaoshanwen-skill/stargazers)
 [![agentskills.io](https://img.shields.io/badge/agentskills.io-Compliant-green.svg)](https://agentskills.io)
 [![CI](https://github.com/kevin12369/gaoshanwen-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/kevin12369/gaoshanwen-skill/actions/workflows/validate.yml)
@@ -12,6 +12,18 @@
 
 > **解释过去头头是道，似乎有理；预测未来躲躲闪闪，误差惊人。**
 > —— 横批：经济分析
+
+---
+
+## 🆕 v1.1.0 重大更新
+
+- ✅ **10 个完整示例** — 新增 2024 外滩金融峰会完整圆桌、2022 中期策略会《吹尽狂沙始到金》、2024 日本出海经验对比
+- ✅ **5 个 Issue 模板** — Bug 报告 / 风格校准反馈 / 提议新示例 / 一般问题
+- ✅ **关键观点年表补全** — 新增 2024.9 外滩、2025.11 离职、2026.7 病逝等关键节点
+- ✅ **CI/CD 自动化** — GitHub Actions 跑 53 项校验，每次 push 自动验证
+- ✅ **UTF-8 + LF 强制** — `.gitattributes` 防 Windows 编码混乱
+
+详见 [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -64,23 +76,38 @@ gaoshanwen-skill/
 │   ├── 01-core-theories.md          # 5 大核心理论详解
 │   ├── 02-analysis-frameworks.md    # 框架应用工作流
 │   ├── 03-style-and-voice.md        # 表达风格、典型语录
-│   ├── 04-key-views-timeline.md     # 2003-2025 关键观点年表
+│   ├── 04-key-views-timeline.md     # 2003-2026 关键观点年表（含 2025-2026 更新）
 │   ├── 05-publications.md           # 5 部代表作索引
 │   ├── 06-glossary.md               # 术语表
 │   └── 07-checklist.md              # 风格校准 checklist
 │
-├── examples/                         # 示例
-│   ├── 01-property-3-challenges.md   # 房地产三阶段
-│   ├── 02-asset-revaluation-theory.md # 资产重估理论
-│   ├── 03-total-demand-debate.md    # 总需求两派意见
-│   ├── 04-overcapacity-and-spillover.md # 产能过剩
-│   ├── 05-a-share-strategy.md       # A 股策略
-│   ├── 06-self-deprecating-couplet.md # 招牌对联
-│   └── 07-style-calibration.md      # 风格校准对比
+├── examples/                         # 示例（10 个）
+│   ├── 01-property-3-challenges.md             # 房地产三阶段调整
+│   ├── 02-asset-revaluation-theory.md          # 资产重估理论完整复刻
+│   ├── 03-total-demand-debate.md               # 总需求不足两派意见之争
+│   ├── 04-overcapacity-and-spillover.md        # 产能过剩与全球溢出
+│   ├── 05-a-share-strategy.md                  # A 股策略分析
+│   ├── 06-self-deprecating-couplet.md          # 招牌对联
+│   ├── 07-style-calibration.md                 # 风格校准示例对比
+│   ├── 08-2024-bund-summit-speech.md           # 🆕 2024 外滩金融峰会完整风格
+│   ├── 09-2022-chuixisha-style.md              # 🆕 2022《吹尽狂沙始到金》风格
+│   └── 10-2024-japan-overseas.md               # 🆕 2024 日本出海经验分析
+│
+├── .github/                          # GitHub 配置
+│   ├── workflows/validate.yml       # 🆕 CI: 53 项自动校验
+│   └── ISSUE_TEMPLATE/               # 🆕 Issue 模板
+│       ├── config.yml               #   - Issue 选择菜单
+│       ├── bug_report.md            #   - Bug 报告
+│       ├── style_issue.md           #   - 风格校准反馈
+│       ├── add_example.md            #   - 提议新示例
+│       └── question.md               #   - 一般问题
+│
+├── .gitattributes                    # 🆕 强制 UTF-8 + LF（防编码问题）
+├── .gitignore                        # Git 忽略规则
 │
 └── scripts/                          # 辅助脚本
-    ├── validate-skill.ps1           # 跨平台规范校验
-    └── test-prompts.json            # 测试提示词
+    ├── validate-skill.ps1           # 跨平台规范校验（CI 用）
+    └── test-prompts.json            # 10 个测试提示词
 ```
 
 ---
@@ -353,10 +380,19 @@ MIT License - 自由使用、修改、分发，需保留版权声明和致谢。
 
 ## 版本
 
+- **1.1.0** (2026-07-09): 内容扩充 + 社区化运营
+  - 🆕 新增 3 个完整 examples（外滩峰会 / 中期策略会 / 日本出海）
+  - 🆕 5 个 Issue 模板（bug / 风格 / 提议 / 问题）
+  - 🆕 关键观点年表补全至 2026
+  - 🆕 GitHub Actions CI（53 项自动校验）
+  - 🆕 `.gitattributes` 强制 UTF-8 + LF
+
 - **1.0.0** (2026-07-08): 初版发布
-  - 完整版：含 5 大框架、风格校准、代表作索引、7+ 示例
+  - 完整版：含 5 大框架、风格校准、代表作索引、7 个示例
   - 跨平台兼容：OpenClaw / Hermes / Claude Code / Trae / Codex / Cursor / Mavis
   - 合规边界：AI 模拟声明 + 免责声明
+
+详见 [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
