@@ -1,0 +1,116 @@
+cff-version: 1.2.0
+message: "If you use this SKILL in academic research, please cite it using the metadata below."
+title: "gaoshanwen-skill: An AI Agent SKILL Simulating Macroeconomist Gao Shanwen's Analytical Framework and Expression Style"
+abstract: "This SKILL preserves and transmits the analytical framework and expression style of Mr. Gao Shanwen (1971-2026), one of the most influential macroeconomists in China's capital markets. It includes five core analytical frameworks (Asset Revaluation Theory, Capacity Cycle, Inventory Cycle, Hog Cycle Inflation Analysis, Real Estate Three-Stage Adjustment), 7 reference documents, 10 worked examples, and 4 SKILL variants. Cross-platform compatible with OpenClaw, Hermes, Claude Code, Trae, Codex, Cursor, and Mavis agents. Designed for educational, research, and content creation purposes. All outputs are AI-simulated and do not represent Mr. Gao Shanwen's actual views."
+date-released: 2026-07-08
+date-modified: 2026-07-09
+version: "1.2.0"
+license: MIT
+repository-code: "https://github.com/kevin12369/gaoshanwen-skill"
+url: "https://github.com/kevin12369/gaoshanwen-skill"
+keywords:
+  - macroeconomics
+  - china
+  - asset-revaluation
+  - capacity-cycle
+  - inflation
+  - real-estate
+  - a-share
+  - ai-agent
+  - skill
+  - financial-analysis
+authors:
+  - family-names: "Gao"
+    given-names: "Shanwen"
+    name-particle: ""
+    affiliation: "SDIC Securities (formerly Essence Securities)"
+    email: ""
+    orcid: ""
+    note: "Original author whose analytical framework and expression style is being preserved and transmitted by this SKILL (1971-2026)"
+  - family-names: "mavis"
+    given-names: ""
+    name-particle: ""
+    affiliation: "Mavis Agent"
+    email: ""
+    orcid: ""
+    note: "SKILL author and maintainer"
+contact:
+  - family-names: "mavis"
+    name-particle: ""
+    affiliation: "Mavis Agent"
+    note: "Project maintainer"
+references:
+  - type: "book"
+    title: "At the Turning Point of the Cycle: From Data to China's Economic Fluctuations"
+    authors:
+      - family-names: "Gao"
+        given-names: "Shanwen"
+    year: 2006
+    publisher: "China Development Press"
+    location: "Beijing"
+    note: "Early methodology foundation"
+  - type: "book"
+    title: "Perspective on Prosperity: Concerns Behind Asset Revaluation"
+    authors:
+      - family-names: "Gao"
+        given-names: "Shanwen"
+    year: 2007
+    publisher: "China Prices Press"
+    location: "Beijing"
+    note: "Asset Revaluation Theory - most famous contribution"
+  - type: "book"
+    title: "2008 China A-Share Investment Strategy"
+    authors:
+      - family-names: "Gao"
+        given-names: "Shanwen"
+      - family-names: "Cheng"
+        given-names: "Dinghua"
+    year: 2008
+    publisher: "China Market Press"
+    location: "Beijing"
+  - type: "book"
+    title: "Economic Operations Logic"
+    authors:
+      - family-names: "Gao"
+        given-names: "Shanwen"
+    year: 2013
+    publisher: "China Renmin University Press"
+    location: "Beijing"
+    note: "Complete methodology system; Wu Xiaoling (former PBOC deputy governor) wrote the preface"
+  - type: "book"
+    title: "The Truth About Economic Operations"
+    authors:
+      - family-names: "Gao"
+        given-names: "Shanwen"
+    year: 2020
+    publisher: "CITIC Press"
+    location: "Beijing"
+  - type: "speech"
+    title: "Speech at the 6th Bund Summit: Global and China Macroeconomic Outlook"
+    authors:
+      - family-names: "Gao"
+        given-names: "Shanwen"
+    year: 2024
+    date: "2024-09-07"
+    location: "Shanghai"
+    note: "Last systematic public speech - covers total demand, real estate three-stage adjustment, overcapacity"
+preferred-citation:
+  type: "software"
+  title: "gaoshanwen-skill: An AI Agent SKILL Simulating Macroeconomist Gao Shanwen's Analytical Framework and Expression Style"
+  authors:
+    - family-names: "mavis"
+  year: 2026
+  version: "1.2.0"
+  publisher: "GitHub"
+  url: "https://github.com/kevin12369/gaoshanwen-skill"
+  date-released: "2026-07-08"
+
+# Acknowledgment
+# This SKILL is dedicated to the memory of Mr. Gao Shanwen (1971-2026),
+# whose 30 years of macroeconomic research left an enduring analytical
+# framework and expression style for the community.
+
+# Important Note
+# All outputs of this SKILL are AI-simulated and do NOT represent
+# Mr. Gao Shanwen's personal views. See SECURITY.md and README.md
+# for complete disclaimers.

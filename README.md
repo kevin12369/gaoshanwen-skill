@@ -541,6 +541,23 @@ MIT License - 自由使用、修改、分发，需保留版权声明和致谢。
 
 ---
 
+## 📚 项目资源
+
+| 资源 | 说明 |
+|---|---|
+| [README.en.md](README.en.md) | English README |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | 贡献指南 |
+| [SECURITY.md](SECURITY.md) | 安全策略 |
+| [CHANGELOG.md](CHANGELOG.md) | 版本历史 |
+| [examples/INDEX.md](examples/INDEX.md) | 10 个 Examples 分类索引 |
+| [CITATION.cff](CITATION.cff) | 学术引用格式（CFF 1.2.0） |
+| [references/03-style-and-voice.md](references/03-style-and-voice.md) | 风格详解 |
+| [references/04-key-views-timeline.md](references/04-key-views-timeline.md) | 关键观点年表（2003-2026） |
+| [references/05-publications.md](references/05-publications.md) | 5 部代表作索引 |
+| [references/07-checklist.md](references/07-checklist.md) | 风格校准 checklist |
+
+---
+
 ## 相关资源
 
 ### 高善文先生著作

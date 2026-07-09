@@ -1,5 +1,28 @@
 # 版本历史
 
+## 1.3.0 (2026-07-09)
+
+### 🆕 项目治理完善
+
+**新增文档（6 份）**：
+- `README.en.md` — 完整英文 README（国际曝光）
+- `CONTRIBUTING.md` — 贡献指南（含 PR 流程、风格校准标准、编码规范）
+- `.github/PULL_REQUEST_TEMPLATE.md` — 标准 PR 模板（含风格校准 checklist）
+- `examples/INDEX.md` — 10 个 Examples 分类索引（按主题/框架/风格/时间线/难度）
+- `SECURITY.md` — 安全策略（GitHub 推荐文件，含 vulnerability 报告流程）
+- `CITATION.cff` — 学术引用格式（CFF 1.2.0）
+
+**README 更新**：
+- 添加"📚 项目资源"链接表格
+- 整合所有文档入口
+
+### 🛡️ 质量保证
+
+- 53/53 校验通过
+- GitHub Actions CI 已配置
+
+---
+
 ## 1.2.0 (2026-07-09)
 
 ### 🆕 变体 + 国际化
