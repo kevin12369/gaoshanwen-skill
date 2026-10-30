@@ -1,7 +1,7 @@
 # 高善文风格宏观研究与财经分析 SKILL
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg)](https://github.com/kevin12369/gaoshanwen-skill/releases/tag/v1.1.0)
+[![Version](https://img.shields.io/badge/Version-1.4.3-blue.svg)](https://github.com/kevin12369/gaoshanwen-skill/tags)
 [![GitHub stars](https://img.shields.io/github/stars/kevin12369/gaoshanwen-skill?style=social)](https://github.com/kevin12369/gaoshanwen-skill/stargazers)
 [![agentskills.io](https://img.shields.io/badge/agentskills.io-Compliant-green.svg)](https://agentskills.io)
 [![CI](https://github.com/kevin12369/gaoshanwen-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/kevin12369/gaoshanwen-skill/actions/workflows/validate.yml)
@@ -15,12 +15,14 @@
 
 ---
 
-## 🆕 v1.1.0 重大更新
+## 🆕 v1.4.3 最新更新
 
-- ✅ **10 个完整示例** — 新增 2024 外滩金融峰会完整圆桌、2022 中期策略会《吹尽狂沙始到金》、2024 日本出海经验对比
-- ✅ **5 个 Issue 模板** — Bug 报告 / 风格校准反馈 / 提议新示例 / 一般问题
-- ✅ **关键观点年表补全** — 新增 2024.9 外滩、2025.11 离职、2026.7 病逝等关键节点
-- ✅ **CI/CD 自动化** — GitHub Actions 跑 53 项校验，每次 push 自动验证
+- ✅ **2026 下半年 A 股展望** — 新增 `examples/12-2026-h2-a-share-outlook.md`
+- ✅ **联储"伪宽松"辨析** — 新增 `examples/13-2026-fed-pseudo-easing.md`
+- ✅ **2026 上半年 A 股复盘** — 新增 `examples/11-2026-h1-a-share-analysis.md`（v1.4.2）
+- ✅ **SKILL 实战增强层** — 依据 10 个测试反馈重写 SKILL.md：常用词汇、叙事与结尾模板、常见 AI 味硬伤清单、数据引用与风险对冲校准（v1.4.1）
+- ✅ **编码事故修复** — 从 v1.4.0 恢复被 GBK 管线损坏的 SKILL.md 中文字段（v1.4.2）
+- ✅ **CI 53 项校验** — 每次 push 自动验证
 - ✅ **UTF-8 + LF 强制** — `.gitattributes` 防 Windows 编码混乱
 
 详见 [CHANGELOG.md](CHANGELOG.md)
@@ -565,30 +567,26 @@ MIT License - 自由使用、修改、分发，需保留版权声明和致谢。
 
 ## 🗺️ Roadmap
 
-> **项目当前状态**: v1.3.0 — 完整治理 + 国际化  
-> **下一里程碑**: v2.0.0 — 多 Agent 协作 + 实时数据接入
+> **项目当前状态**: v1.4.3 — 内容深度 + 实战校准  
+> **下一里程碑**: v1.5.0 — 数据源指引与更多专项示例
 
-### ✅ 已完成（v1.0 - v1.3）
+### ✅ 已完成（v1.0 - v1.4）
 
 - [x] **v1.0.0** — 初版：SKILL.md + 5 大框架 + 7 份 references + 7 个 examples
 - [x] **v1.1.0** — 内容扩充：+3 个 examples + Issue 模板 + CI/CD
 - [x] **v1.2.0** — 变体 + 国际化：SKILL.en.md + SKILL-condensed + SKILL-a-share + SKILL-real-estate + Hello World Demo
 - [x] **v1.3.0** — 项目治理：README.en.md + CONTRIBUTING.md + SECURITY.md + CITATION.cff + PR 模板
+- [x] **v1.4.0** — 运营增强：反例库 `references/08-style-anti-patterns.md`、`FAQ.md`（20 问）、release-drafter 配置、`CODE_OF_CONDUCT.md`、Roadmap 章节（本节）
+- [x] **v1.4.1** — 实战增强：依据 10 个测试反馈为 SKILL.md 增加「实战增强层」，并在 `tests/` 留下三份测试报告
+- [x] **v1.4.2** — 编码修复（恢复被 GBK 管线损坏的中文字段）+ 新增 `examples/11-2026-h1-a-share-analysis.md`
+- [x] **v1.4.3** — 新增 `examples/12-2026-h2-a-share-outlook.md`、`examples/13-2026-fed-pseudo-easing.md`
 
-### 🚧 进行中（v1.4 - v1.5）
-
-- [ ] **v1.4.0** — 风格校准增强
-  - [ ] 反例库 `references/08-style-anti-patterns.md`
-  - [ ] 常见问题 FAQ.md
-  - [ ] release-drafter 配置（自动生成 release notes）
-  - [ ] CODE_OF_CONDUCT.md
-  - [ ] Roadmap 章节（本节）
+### 🚧 下一步（v1.5）
 
 - [ ] **v1.5.0** — 内容深度增强
-  - [ ] references/08-style-anti-patterns.md（典型反例）
-  - [ ] references/09-data-sources.md（数据源指引）
-  - [ ] examples/11-debt-cycle.md（债务周期）
-  - [ ] examples/12-hog-cycle-inflation.md（猪周期详细应用）
+  - [ ] `references/09-data-sources.md`（数据源指引）
+  - [ ] `examples/14-debt-cycle.md`（债务周期）
+  - [ ] `examples/15-hog-cycle-inflation.md`（猪周期详细应用）
 
 ### 🌟 计划中（v2.0+）
 
@@ -659,6 +657,25 @@ MIT License - 自由使用、修改、分发，需保留版权声明和致谢。
 ---
 
 ## 版本
+
+- **1.4.3** (2026-07-09): 内容深度
+  - 🆕 `examples/12-2026-h2-a-share-outlook.md`（2026 下半年 A 股展望）
+  - 🆕 `examples/13-2026-fed-pseudo-easing.md`（联储"伪宽松"辨析）
+
+- **1.4.2** (2026-07-09): 编码修复 + 新示例
+  - 🐛 修复 v1.4.1 中 SKILL.md 中文字段被 GBK 管线损坏的问题（从 v1.4.0 恢复后重做）
+  - 🆕 `examples/11-2026-h1-a-share-analysis.md`（2026 上半年 A 股复盘）
+  - ✅ 53/53 校验通过，SKILL.md 恢复为合法 UTF-8
+
+- **1.4.1** (2026-07-09): SKILL 实战增强
+  - 🆕 SKILL.md 增加「实战增强层」：常用词汇、叙事口吻与结尾模板、常见 AI 味硬伤清单、
+    数据引用原则、风险对冲类校准
+  - 🆕 `tests/` 三份测试报告（10 个问题的实战测试与打分）
+  - 📈 自测量表由 85.3 提升至 93.8
+
+- **1.4.0** (2026-07-09): 运营增强
+  - 🆕 反例库 `references/08-style-anti-patterns.md`、`FAQ.md`（20 问）
+  - 🆕 `.github/release-drafter.yml`、`CODE_OF_CONDUCT.md`、Roadmap 章节
 
 - **1.1.0** (2026-07-09): 内容扩充 + 社区化运营
   - 🆕 新增 3 个完整 examples（外滩峰会 / 中期策略会 / 日本出海）

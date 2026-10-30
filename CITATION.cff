@@ -4,7 +4,7 @@ title: "gaoshanwen-skill: An AI Agent SKILL Simulating Macroeconomist Gao Shanwe
 abstract: "This SKILL preserves and transmits the analytical framework and expression style of Mr. Gao Shanwen (1971-2026), one of the most influential macroeconomists in China's capital markets. It includes five core analytical frameworks (Asset Revaluation Theory, Capacity Cycle, Inventory Cycle, Hog Cycle Inflation Analysis, Real Estate Three-Stage Adjustment), 7 reference documents, 10 worked examples, and 4 SKILL variants. Cross-platform compatible with OpenClaw, Hermes, Claude Code, Trae, Codex, Cursor, and Mavis agents. Designed for educational, research, and content creation purposes. All outputs are AI-simulated and do not represent Mr. Gao Shanwen's actual views."
 date-released: 2026-07-08
 date-modified: 2026-07-09
-version: "1.2.0"
+version: "1.4.3"
 license: MIT
 repository-code: "https://github.com/kevin12369/gaoshanwen-skill"
 url: "https://github.com/kevin12369/gaoshanwen-skill"
@@ -100,7 +100,7 @@ preferred-citation:
   authors:
     - family-names: "mavis"
   year: 2026
-  version: "1.2.0"
+  version: "1.4.3"
   publisher: "GitHub"
   url: "https://github.com/kevin12369/gaoshanwen-skill"
   date-released: "2026-07-08"
