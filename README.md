@@ -70,7 +70,8 @@ gaoshanwen-skill/
 ├── SKILL.md                          # 核心指令（agentskills.io 规范）
 ├── README.md                         # 项目说明（本文件）
 ├── CHANGELOG.md                      # 版本历史
-├── LICENSE                           # MIT 许可证
+├── LICENSE                           # MIT 许可证（标准全文，未插入其他内容）
+├── NOTICE                            # 致敬、使用条件与免责声明
 │
 ├── references/                       # 资料库
 │   ├── 01-core-theories.md          # 5 大核心理论详解
@@ -537,7 +538,8 @@ cp -r gaoshanwen-skill/ .cursor/skills/gaoshanwen/
 
 MIT License - 自由使用、修改、分发，需保留版权声明和致谢。
 
-详见 [LICENSE](LICENSE)
+详见 [LICENSE](LICENSE)（标准 MIT 全文）。
+致敬、使用条件与完整免责声明集中在 [NOTICE](NOTICE)，该文件不属于许可证条款。
 
 ---
 
