@@ -1,7 +1,7 @@
 # 高善文风格宏观研究与财经分析 SKILL
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.4.3-blue.svg)](https://github.com/kevin12369/gaoshanwen-skill/tags)
+[![Version](https://img.shields.io/badge/Version-1.4.4-blue.svg)](https://github.com/kevin12369/gaoshanwen-skill/tags)
 [![GitHub stars](https://img.shields.io/github/stars/kevin12369/gaoshanwen-skill?style=social)](https://github.com/kevin12369/gaoshanwen-skill/stargazers)
 [![agentskills.io](https://img.shields.io/badge/agentskills.io-Compliant-green.svg)](https://agentskills.io)
 [![CI](https://github.com/kevin12369/gaoshanwen-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/kevin12369/gaoshanwen-skill/actions/workflows/validate.yml)
@@ -15,9 +15,10 @@
 
 ---
 
-## 🆕 v1.4.3 最新更新
+## 🆕 v1.4.4 最新更新
 
-- ✅ **2026 下半年 A 股展望** — 新增 `examples/12-2026-h2-a-share-outlook.md`
+- ✅ **死因表述收敛** — 全部文档不再写具体病种，统一为「因病」（英文 `after an illness`），只保留可查证的公开信息
+- ✅ **2026 下半年 A 股展望** — 新增 `examples/12-2026-h2-a-share-outlook.md`（v1.4.3）
 - ✅ **联储"伪宽松"辨析** — 新增 `examples/13-2026-fed-pseudo-easing.md`
 - ✅ **2026 上半年 A 股复盘** — 新增 `examples/11-2026-h1-a-share-analysis.md`（v1.4.2）
 - ✅ **SKILL 实战增强层** — 依据 10 个测试反馈重写 SKILL.md：常用词汇、叙事与结尾模板、常见 AI 味硬伤清单、数据引用与风险对冲校准（v1.4.1）
@@ -34,7 +35,7 @@
 本项目是一个**完整版、跨平台兼容**的 AI Agent SKILL，用于模拟已故著名经济学家**高善文博士**（1971-2026）的宏观研究框架与表达风格。
 
 **重要说明**：
-- 高善文先生于 2026 年 7 月 7 日因外周 T 细胞淋巴癌病逝，享年 55 岁
+- 高善文先生于 2026 年 7 月 7 日因病逝世，享年 55 岁
 - 本 SKILL 是对其**公开著作、演讲、报告的分析方法和表达风格的复刻**，用于教育、研究、内容创作
 - 所有输出**不代表高善文先生本人观点**，亦不构成任何投资建议
 
@@ -567,7 +568,7 @@ MIT License - 自由使用、修改、分发，需保留版权声明和致谢。
 
 ## 🗺️ Roadmap
 
-> **项目当前状态**: v1.4.3 — 内容深度 + 实战校准  
+> **项目当前状态**: v1.4.4 — 措辞合规校准 + 内容深度  
 > **下一里程碑**: v1.5.0 — 数据源指引与更多专项示例
 
 ### ✅ 已完成（v1.0 - v1.4）
@@ -580,6 +581,7 @@ MIT License - 自由使用、修改、分发，需保留版权声明和致谢。
 - [x] **v1.4.1** — 实战增强：依据 10 个测试反馈为 SKILL.md 增加「实战增强层」，并在 `tests/` 留下三份测试报告
 - [x] **v1.4.2** — 编码修复（恢复被 GBK 管线损坏的中文字段）+ 新增 `examples/11-2026-h1-a-share-analysis.md`
 - [x] **v1.4.3** — 新增 `examples/12-2026-h2-a-share-outlook.md`、`examples/13-2026-fed-pseudo-easing.md`
+- [x] **v1.4.4** — 措辞合规校准：死因表述统一为「因病」，不再写具体病种；`SKILL.md` frontmatter 版本号跟上
 
 ### 🚧 下一步（v1.5）
 
@@ -657,6 +659,10 @@ MIT License - 自由使用、修改、分发，需保留版权声明和致谢。
 ---
 
 ## 版本
+
+- **1.4.4** (2026-10-31): 措辞合规校准
+  - 🔒 死因表述不再写具体病种，7 个文件、12 处统一为「因病」／`after an illness`
+  - 🔧 `SKILL.md` frontmatter 版本号 1.4.2 → 1.4.4，与 CITATION.cff / README 对齐
 
 - **1.4.3** (2026-07-09): 内容深度
   - 🆕 `examples/12-2026-h2-a-share-outlook.md`（2026 下半年 A 股展望）

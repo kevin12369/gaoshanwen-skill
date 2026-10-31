@@ -33,7 +33,7 @@ See [CHANGELOG.md](CHANGELOG.md) for details.
 This is a **complete, cross-platform AI Agent SKILL** simulating the analytical framework and expression style of **Mr. Gao Shanwen (高善文博士, 1971-2026)**, one of the most influential macroeconomists in China's capital markets.
 
 **Important**:
-- Mr. Gao Shanwen passed away on July 7, 2026 from peripheral T-cell lymphoma, at age 55
+- Mr. Gao Shanwen passed away on July 7, 2026 after an illness, at age 55
 - This SKILL emulates his **publicly published analytical methods and expression style** for educational, research, and content creation purposes
 - All outputs are AI-generated and **do not represent Mr. Gao Shanwen's personal views** and do not constitute investment advice
 
